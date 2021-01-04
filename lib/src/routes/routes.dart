@@ -5,6 +5,7 @@ import 'package:firstApp/src/pages/sliver_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:firstApp/src/pages/launcher_page.dart';
+import 'package:firstApp/src/pages/stack_page.dart';
 
 final pageRoutes = <_Route>[
   _Route(FontAwesomeIcons.heading, "LauncherPage", LauncherPage()),
@@ -12,6 +13,7 @@ final pageRoutes = <_Route>[
   _Route(FontAwesomeIcons.helicopter, "Container EX", ContainerPage()),
   _Route(FontAwesomeIcons.criticalRole, "Grid View", GridViewPage()),
   _Route(FontAwesomeIcons.headset, "List View", ListViewPage()),
+  _Route(FontAwesomeIcons.adversal, "Stack View", StackPage()),
 
 ];
 

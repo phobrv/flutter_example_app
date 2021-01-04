@@ -15,6 +15,28 @@ class StackPage extends StatelessWidget {
 class bodyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Stack(
+      alignment: const Alignment(0.6, 0.6),
+      children: [
+        CircleAvatar(
+          backgroundImage: AssetImage('assets/images/jpg/pic1.jpg'),
+          radius: 100.0,
+
+        ),
+        Container(
+            decoration: BoxDecoration(
+              color: Colors.black45,
+            ),
+            child: Text(
+              'Hot Dog',
+              
+              style: TextStyle(
+                fontSize: 20.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+            ))
+      ],
+    );
   }
 }

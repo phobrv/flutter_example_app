@@ -15,7 +15,7 @@ class DrawerMenu extends StatelessWidget{
             SafeArea(
               child: Container(
                 width: double.infinity,
-                height: 200,
+                height: 150,
                 child: CircleAvatar(
                   backgroundColor: appTheme.currentTheme.accentColor,
                   child: Text(
